@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    background-image: url(../img/background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input:focus {
+    outline-offset: none;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+/** LOGIN **/
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.register__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 20px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.register__container h2 {
+    margin: 0;
+}
+
+.register__container--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__container--form label {
+    font-size: 14px;
+}
+
+.register__container--register {
+    font-size: 14px;
+    text-align: center;
+}
+
+.register__container--register a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.register__container--register a:hover {
+    text-decoration: underline;
+}
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+    width: 70%;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+/** Footer **/
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.footer a {
+    cursor: pointer;
+    font-size: 14;
+    font-family: 'Mulish', sans-serif;
+    padding-left: 30px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .register__container {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
