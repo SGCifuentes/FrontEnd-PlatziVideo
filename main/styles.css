@@ -141,7 +141,7 @@ ul:hover {
 
 .carousel {
   width: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
   padding-left: 30px;
   position: relative;
 }
@@ -182,7 +182,7 @@ ul:hover {
   font-size: 20px;
 }
 
-.carousel-item:hover ~ .carousel-item {
+.carousel-item:hover~.carousel-item {
   -webkit-transform: translate(100px, 0, 0);
   transform: translate3d(100px, 0, 0);
 }
