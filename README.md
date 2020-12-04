@@ -1,4 +1,3 @@
 # PlatziVideo
-*PlatziVideo in progress* 
 
-~ React is currently being implemented ~
+The layout of PlatziVideo, using css and html
