@@ -247,7 +247,7 @@ ul:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .main__titleyy {
+  .main__title {
     font-size: 30px;
   }
 
